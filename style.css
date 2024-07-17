@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Mukta", sans-serif;
+}
+h1{
+    font-family: "Anton SC", sans-serif;
+}
+i{
+    font-size: xx-large;
+}
+header{
+    background-color: aquamarine;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+header h1{
+    margin: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: 10px 30px;
+}
+#banner{
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/16/21/07/books-1204029_960_720.jpg);
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+}
+.row{
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.col{
+    width: 300px;
+    height: 350px;
+    background-color: aqua;
+    text-align: center;
+}
+.col button{
+    background-color: black;
+    color: aliceblue;
+    padding: 7px;
+}
+.col button:hover{
+    background-color: beige;
+    color: black;
+}
+footer{
+    background-color: aqua;
+    width: 100%;
+    height: 300px;
+}
+#fhead{
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    color: red;
+    font-style: italic;
+}
+#link{
+    justify-content: center;
+    display: flex;
+}
+img{
+    padding-right: 5px;
+}
+#last{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
